@@ -1,0 +1,76 @@
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #8e9dae;
+  background-image: linear-gradient(#8b98aa, #bfcddf);  
+  border-radius: 2px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;  
+  border-radius: 5px;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: 0.5s;
+  font-size: 14px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #f2f2f2;
+}
+.tablinks {
+  color: #616284;
+}
+/* Create an active/current tablink class */
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 10px 12px;
+  padding-bottom: 20px;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-image: linear-gradient(#bfcddf, #e5f0fe);
+  border-radius: 0px 0px 5px 5px;
+  color: #616284;  
+}
+.tabcontent p {
+  text-align: center;
+  font-size: 12px;
+  display: inline;
+}
+.tabcontext {
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 30px;
+  width: 53px;
+  height: 53px;
+  display: inline-block;
+}
+.tabcontext:hover {
+  background-color: #eeeeee;
+  cursor: pointer;
+}
+.image {
+  margin-left: 10px;
+}
+.Vertical {
+   padding: 10px;
+  padding-bottom: 30px;
+  border-left: 2px solid #b3c2d4;
+}
+/* Style the close button */
+.topright {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.topright:hover {color: red;}
